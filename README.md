@@ -43,3 +43,6 @@ $ python3 chatbot.py
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Contact 
+Join my [Discord Server](4XYcD2Jk54) or DM me: Cybercube#0499
