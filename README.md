@@ -6,7 +6,8 @@ This Bot can use a local Rasa Model to parse Messages and hold conversations
 Use this commands to install all dependencies that are needed
 
 
-Windows:
+### Windows:
+
 Go to the [Python](https://python.org/downloads/) Website and download the installer (Latest tested Version is 3.8.9)
 
 Install Python3 + Pip3 via the installer (A reboot is maybe required)
@@ -16,9 +17,9 @@ Now open a new Terminal (WIN+R + "cmd") and type:
 ```sh
 $ pip3 install rasa discord.py python_dotenv pytz requests
 ```
+### Linux (Ubuntu):
 
 ```sh
-$ Linux (Ubuntu):
 $ sudo apt update && sudo apt upgrade &&  sudo apt install python3-dev python3-pip
 $ pip3 install -U pip
 $ pip3 install rasa
