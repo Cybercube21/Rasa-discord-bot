@@ -1,6 +1,6 @@
 # Discord Rasa AI Bot
 
-This Bot can use a local Rasa Model to parse Messages and hold conversations
+This Bot can use a local [Rasa](https://rasa.com/) Model to parse Messages and hold conversations
 
 ## Dependencies
 Use this commands to install all dependencies that are needed
@@ -15,7 +15,8 @@ Install Python3 + Pip3 via the installer (A reboot is maybe required)
 Now open a new Terminal (WIN+R + "cmd") and type:
 
 ```sh
-$ pip3 install rasa discord.py python_dotenv pytz requests
+$ pip3 install rasa 
+$ discord.py python_dotenv pytz requests
 ```
 ### Linux (Ubuntu):
 
