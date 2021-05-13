@@ -35,7 +35,7 @@ If you want or need to use another Rasa Model, make sure to *NOT* delete or over
 
 ## How to Use
 
-Simply get into the Project Folder and use the following Command:
+Simply get into the Project Folder and use the following Command and write a Message in any Channel (Dont forget to invite the Bot ;D):
 
 ```sh
 $ python3 chatbot.py
@@ -45,4 +45,4 @@ $ python3 chatbot.py
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Contact 
-Join my [Discord Server](4XYcD2Jk54) or DM me: Cybercube#0499
+Join my [Discord Server](https://discord.gg/4XYcD2Jk54) or DM me: Cybercube#0499
