@@ -35,10 +35,12 @@ If you want or need to use another Rasa Model, make sure to *NOT* delete or over
 
 ## How to Use
 
-Simply get into the Project Folder and use the following Command and write a Message in any Channel (Dont forget to invite the Bot ;D):
+Simply get into the Project Folder and use the following Commands and write a Message in any Channel (Dont forget to invite the Bot ;D):
 
 ```sh
-$ python3 chatbot.py
+$ python3 chatbot.py # To start the Bot
+  Then open a new Terminal and go in the model/ Folder
+$ rasa run --enable-api --credentials credentials.yml --cors "*" # To Start the Rasa Server
 ```
 
 ## License
