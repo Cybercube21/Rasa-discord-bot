@@ -12,10 +12,10 @@ from rasa.core.channels.channel import (
     UserMessage,
 )
 
-class MyioInput(InputChannel):
+class CustomIOInput(InputChannel):
     @classmethod
     def name(cls) -> Text:
-        return "myio"
+        return "CustomIO"
 
 
     @staticmethod
@@ -105,7 +105,7 @@ class MyioInput(InputChannel):
                     content_type="text/event-stream",
                 )
             else:
-                collector = MyioOutput()
+                collector = CustomIOOutput()
                 # noinspection PyBroadException
                 try:
                     await on_new_message(
@@ -131,7 +131,7 @@ class MyioInput(InputChannel):
         return custom_webhook
 
 
-class MyioOutput(CollectingOutputChannel):
+class CustomIOOutput(CollectingOutputChannel):
     @classmethod
     def name(cls) -> Text:
-        return "myio"
+        return "CustomIO"
