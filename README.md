@@ -8,7 +8,8 @@ Use these commands to install all dependencies that are needed
 
 ### Windows:
 
-Go to the [Python](https://python.org/downloads/) Website and download the installer (Latest tested Version is 3.8.9)
+Go to the [Python](https://python.org/downloads/) Website and download the installer <br>
+The latest tested version is 3.8.9, Rasa supports 3.7, 3.8, 3.9 and 3.10 tho
 
 Install Python3 + Pip3 via the installer (A reboot may be required)
 
