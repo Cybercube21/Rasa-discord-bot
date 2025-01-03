@@ -49,4 +49,4 @@ Happy training!
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Contact 
-Join my [Discord Server](https://discord.gg/4XYcD2Jk54) or DM me: Cybercube#0499
+DM me on discord: cybercube21
